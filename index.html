@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de lançamento obliquio</title>
+    <link rel="stylesheet"  href="style.css"/>
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Calculadora de lançamento obliquio</h1>
+        <form action="#" methad="post" id="Formulario"></form>
+
+        <label for="coeficiente">Coeficiente de Dilatação Térmica</label>
+        <input type="number" name="a" id="coeficiente">
+
+        <label for="comprimentoinicial">Comprimento Inicial (m/s)</label>
+        <input type="number" name="l" id="comprimentoinicial">
+
+        <label for="temperaturainicial">Temperatura Inicial (m/s)</label>
+        <input type="number" name="Ti" id="temperaturainicial">
+
+        <label for="temperaturafinal">Temperatura Final (m/s)</label>
+        <input type="number" name="Tf" id="temperaturafinal">
+    </div>
+    <button type="button" id="calcular">Calcule</button>
+    <div>
+        <h2>Resultados</h2>
+        <p id="dilatacao"></p>
+    </div>
+</body>
+</html>
